@@ -20,23 +20,27 @@ map("n", "<leader>t", ":sp | terminal<CR>", opt)
 map("n", "<leader>vt", ":vsp | terminal<CR>", opt)
 map("t", "<Esc>", "<C-\\><C-n>", opt)
 
-
-
 -- nvimTree
 map('n', '<C-m>', ':NvimTreeToggle<CR>', opt)
 
 -- bufferline 左右Tab切换
 map("n", "<C-h>", ":BufferLineCyclePrev<CR>", opt)
 map("n", "<C-l>", ":BufferLineCycleNext<CR>", opt)
+
 -- Telescope
--- 查找文件
+-- find files
 map("n", "<C-p>", ":Telescope find_files<CR>", opt)
--- 全局搜索
+-- fuzzy search
 map("n", "<C-s>", ":Telescope live_grep<CR>", opt)
 map("n", "<leader>b", ":Telescope buffers<CR>", opt)
 map("n", "<leader>o", ":Telescope oldfiles<CR>" , opt)
 
+-- markdown setup
 map("n", "<leader>m", ":MarkdownPreview<CR>", opt)
 map("n", "<leader>ms", ":MarkdownPreviewStop<CR>", opt)
 
-
+-- fast motion
+map("n", "ss", ":HopChar2<CR>", opt)
+map("n", "sl", ":HopLine<CR>", opt)
+map("n", "sa", ":HopAnywhere<CR>", opt)
+map("n", "sp", ":HopPattern<CR>",opt)

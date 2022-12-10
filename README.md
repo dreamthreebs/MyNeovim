@@ -9,4 +9,5 @@ The files in plugins.lua are plugins of my neovim and I use Packer for my plugin
 * telescope for fuzzy search
 * markdown-preview.nvim to view markdown files
 * nvim-comment for comment
+open time: 59ms
 
