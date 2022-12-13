@@ -34,6 +34,7 @@ map("n", "<C-p>", ":Telescope find_files<CR>", opt)
 map("n", "<C-s>", ":Telescope live_grep<CR>", opt)
 map("n", "<leader>b", ":Telescope buffers<CR>", opt)
 map("n", "<leader>o", ":Telescope oldfiles<CR>" , opt)
+map("n", "<leader>t", ":Telescope tags<CR>" , opt)
 
 -- markdown setup
 map("n", "<leader>m", ":MarkdownPreview<CR>", opt)

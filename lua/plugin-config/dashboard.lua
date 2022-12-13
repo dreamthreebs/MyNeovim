@@ -4,28 +4,44 @@ if not status then
   return
 end
 
---[[db.custom_footer = {
+db.custom_footer = {
   "",
   "",
-  "https://github.com/nshen/learn-neovim-lua",
-}--]]
+  "https://github.com/dreamthreebs/MyNeovim",
+}
 
 db.custom_center = {
   {
-    icon = "  ",
-    desc = "Find files                            ",
+    icon = "  ",
+    desc = "Find Files                          ",
     action = "Telescope find_files",
   },
   {
     icon = "  ",
-    desc = "Recently files                      ",
+    desc = "Recently Files                      ",
     action = "Telescope oldfiles",
   },
   {
     icon = "  ",
-    desc = "Edit keybindings                    ",
+    desc = "Edit Keybindings                    ",
     action = "edit ~/.config/nvim/lua/keybindings.lua",
   },
+  {
+    icon = "  ",
+    desc = "Change Colorscheme                  ",
+    action = "Telescope colorscheme",
+  },
+  {
+    icon = "  ",
+    desc = "Edit Alias                          ",
+    action = "edit ~/.bashrc",
+  },
+  {
+    icon = "  ",
+    desc = "Search Word                         ",
+    action = "Telescope live_grep",
+  },
+ 
   --[[{
     icon = "  ",
     desc = "Edit Projects                       ",
@@ -34,6 +50,8 @@ db.custom_center = {
 }
 
 db.custom_header = {
+    [[                                   ]],
+    [[                                   ]],
     [[          ▀████▀▄▄              ▄█ ]],
     [[            █▀    ▀▀▄▄▄▄▄    ▄▄▀▀█ ]],
     [[    ▄        █          ▀▀▀▀▄  ▄▀  ]],
@@ -43,4 +61,6 @@ db.custom_header = {
     [[   ▀▄    ▄▀ █   ▄██▄   ▄  ▄  ▀▀ █  ]],
     [[    █  ▄▀  █    ▀██▀    ▀▀ ▀▀  ▄▀  ]],
     [[   █   █  █      ▄▄           ▄▀   ]],
+    [[                                   ]],
+    [[                                   ]],
 }

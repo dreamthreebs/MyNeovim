@@ -81,7 +81,9 @@ vim.o.showtabline = 2
 -- Always show the signcolumn, otherwise it would shift the text each time
 -- diagnostics appear/become resolved.
 vim.opt.signcolumn = "yes"
-
+-- show last edit position when open files
+vim.cmd([[ au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+ ]])
 local keyset = vim.keymap.set
 -- Auto complete
 function _G.check_back_space()
