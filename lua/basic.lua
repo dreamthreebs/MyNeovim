@@ -42,8 +42,8 @@ vim.o.cmdheight = 2
 vim.o.autoread = true
 vim.bo.autoread = true
 -- 禁止折行
-vim.o.wrap = false
-vim.wo.wrap = false
+vim.o.wrap = true
+-- vim.wo.wrap = false
 -- 行结尾可以跳到下一行
 vim.o.whichwrap = 'b,s,<,>,[,],h,l'
 -- 允许隐藏被修改过的buffer

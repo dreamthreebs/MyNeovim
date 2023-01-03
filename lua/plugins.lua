@@ -33,4 +33,5 @@ return require('packer').startup(function()
     require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
   end
 }
+    use 'bluz71/vim-nightfly-colors'
     end)

@@ -156,6 +156,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/wangyiming/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-nightfly-colors"] = {
+    loaded = true,
+    path = "/Users/wangyiming/.local/share/nvim/site/pack/packer/start/vim-nightfly-colors",
+    url = "https://github.com/bluz71/vim-nightfly-colors"
   }
 }
 
