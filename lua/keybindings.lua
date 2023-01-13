@@ -24,6 +24,7 @@ map("n", "so", "<C-w>o", opt)
 -- map("n", "sl", "<C-w>l", opt)
 map("n", "sa", "0", opt)
 map("n", "sd", "$", opt)
+map("n", "sw", "gM", opt)
 
 map("n", "<leader>t", ":sp | terminal<CR>", opt)
 map("n", "<leader>vt", ":vsp | terminal<CR>", opt)
@@ -51,6 +52,6 @@ map("n", "<leader>ms", ":MarkdownPreviewStop<CR>", opt)
 
 -- fast motion
 map("n", "ss", ":HopChar2<CR>", opt)
-map("n", "sl", ":HopLine<CR>", opt)
-map("n", "sss", ":HopAnywhere<CR>", opt)
+-- map("n", "sl", ":HopLine<CR>", opt)
+-- map("n", "sss", ":HopAnywhere<CR>", opt)
 map("n", "sp", ":HopPattern<CR>",opt)

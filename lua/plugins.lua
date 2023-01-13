@@ -34,4 +34,9 @@ return require('packer').startup(function()
   end
 }
     use 'bluz71/vim-nightfly-colors'
-    end)
+    use 'voidekh/kyotonight.vim'
+    use { "catppuccin/nvim", as = "catppuccin" }
+
+
+
+end)

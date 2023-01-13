@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/wangyiming/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
+  catppuccin = {
+    loaded = true,
+    path = "/Users/wangyiming/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["coc.nvim"] = {
     loaded = true,
     path = "/Users/wangyiming/.local/share/nvim/site/pack/packer/start/coc.nvim",
@@ -104,6 +109,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/wangyiming/.local/share/nvim/site/pack/packer/start/impatient.nvim",
     url = "https://github.com/lewis6991/impatient.nvim"
+  },
+  ["kyotonight.vim"] = {
+    loaded = true,
+    path = "/Users/wangyiming/.local/share/nvim/site/pack/packer/start/kyotonight.vim",
+    url = "https://github.com/voidekh/kyotonight.vim"
   },
   ["lush.nvim"] = {
     loaded = true,
